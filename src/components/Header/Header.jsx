@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import "./Header.css";
 import Navigation from "../Navigation/Navigation";
 
-function Header() {
+function Header () {
     const [isMyPage, setisMyPage] = useState(false);
     const [isOpenMenu, setOpenMenu] = useState(false);
     const location = useLocation();
