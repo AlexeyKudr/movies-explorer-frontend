@@ -1,7 +1,7 @@
 import "../Movies/Movies.css";
 import SearchForm from "../SearchForm/SearchForm";
 import MoviesCardList from "../MoviesCardList/MoviesCardList";
-import words from "../../images/33png.png";
+import words from "../../images/33 words.jpg";
 import cinema from "../../images/100 yers.jpg";
 import banksy from "../../images/Banksy.jpg";
 import reality from "../../images/Banksy reality.jpg";
