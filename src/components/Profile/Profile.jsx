@@ -5,7 +5,7 @@ function Profile() {
     return (
         <section className="profile">
             <h3 className="profile__header">Привет, Виталий!</h3>
-            <div className="profile__fields">
+            <form className="profile__fields">
                 <div className="profile__block">
                     <p className="profile__title">Имя</p>
                     <input className="profile__input" placeholder="Виталий" type="text" />
@@ -14,7 +14,7 @@ function Profile() {
                     <p className="profile__title-mail">E-mail</p>
                     <input className="profile__input-mail" placeholder="pochta@yandex.ru" type="email" />
                 </div>
-            </div>
+            </form>
             <div className="profile__submit">
                 <button className="profile__button" type="submit">
                     Редактировать

@@ -17,8 +17,8 @@ function Navigation({ onClose }) {
                         Сохранённые фильмы
                     </a>
                 </div>
-                <button className="navigation__account-box">
-                    <a href="/profile" className="navigation__account-title">
+                <button className="navigation__account_box" type='button'>
+                    <a href="/profile" className="navigation__account_title">
                         Аккаунт
                     </a>
                 </button>

@@ -9,7 +9,7 @@ const Footer = () => {
         return null;
     }
     return (
-        <div className="footer">
+        <footer className="footer">
             <h2 className="footer__title">Учебный проект Яндекс.Практикум х BeatFilm.</h2>
             <div className="footer__info">
                 <p className="footer__year">© 2024</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 

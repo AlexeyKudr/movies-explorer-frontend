@@ -71,7 +71,7 @@
         padding-top: 159px;
     }
 
-    .navigation__account-box {
+    .navigation__account_box {
         display: flex;
         align-self: center;
         text-align: center;
@@ -86,7 +86,7 @@
         border-radius: 20px;
     }
 
-    .navigation__account-title {
+    .navigation__account_title {
         display: flex;
         text-decoration: none;
         color: white;
@@ -105,7 +105,7 @@
         padding-top: 144px;
     }
 
-    .navigation__account-box {
+    .navigation__account_box {
         margin-bottom: 46px;
     }
 }

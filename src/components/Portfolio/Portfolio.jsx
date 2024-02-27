@@ -2,7 +2,7 @@ import "./Portfolio.css";
 
 function Portfolio () {
     return (
-        <div className="portfolio">
+        <section className="portfolio">
             <h3 className="portfolio__header">Портфолио</h3>
             <div className="portfolio__container">
                 <a href="https://github.com/AlexeyKudr/how-to-learn" className="portfolio__links" target="_blank" rel="noreferrer">
@@ -18,7 +18,7 @@ function Portfolio () {
                     <div className="portfolio__arrow" />
                 </a>
             </div>
-        </div>
+        </section>
     );
 };
 

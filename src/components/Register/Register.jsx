@@ -7,7 +7,7 @@ function Register() {
         <section className="register">
             <img src={logo} alt="логотип" className="register__logo" />
             <h3 className="register__header">Добро пожаловать!</h3>
-            <div className="register__fields">
+            <form className="register__fields">
                 <div className="register__block">
                     <p className="register__title">Имя</p>
                     <input className="register__input" placeholder="Виталий" type="text" required />
@@ -20,7 +20,7 @@ function Register() {
                     <p className="register__title">Пароль</p>
                     <input className="register__input" placeholder="••••••••••••••" type="text" required />
                 </div>
-            </div>
+            </form>
             <span className="register__error">Что-то пошло не так...</span>
             <div className="register__submit">
                 <button className="register__button" type="submit">

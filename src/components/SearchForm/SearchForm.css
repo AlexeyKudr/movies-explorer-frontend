@@ -24,8 +24,8 @@
     padding: 0;
     background-image: url(../../images/search-new.svg);
     background-repeat: no-repeat;
-    width: 49px;
-    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
     align-self: center;
     border: none;
     background-color: #202020;

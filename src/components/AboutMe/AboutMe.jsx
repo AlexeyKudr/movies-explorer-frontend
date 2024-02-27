@@ -6,7 +6,7 @@ function AboutMe() {
         <section className="about-me" id="student">
             <h2 className="about-me__header">Студент</h2>
             <div className="about-me__content">
-                <div className="about-me__info">
+                <article className="about-me__info">
                     <h3 className="about-me__title">Виталий</h3>
                     <h1 className="about-me__subtitle">Фронтенд-разработчик, 30 лет</h1>
                     <p className="about-me__description">
@@ -16,7 +16,7 @@ function AboutMe() {
                     <a className="about-me__github" href="https://github.com/AlexeyKudr">
                         Github
                     </a>
-                </div>
+                </article>
                 <img src={photo} className="about-me__avatar" alt="Аватарка" />
             </div>
         </section>

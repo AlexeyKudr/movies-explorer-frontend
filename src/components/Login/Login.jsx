@@ -7,7 +7,7 @@ function Login() {
         <section className="login">
             <img src={logo} alt="логотип" className="login__logo" />
             <h3 className="login__header">Рады видеть!</h3>
-            <div className="login__fields">
+            <form className="login__fields">
                 <div className="login__block">
                     <p className="login__title">E-mail</p>
                     <input className="login__input" placeholder="pochta@yandex.ru" type="email" required />
@@ -16,7 +16,7 @@ function Login() {
                     <p className="login__title">Пароль</p>
                     <input className="login__input" type="text" required />
                 </div>
-            </div>
+            </form>
             <div className="login__submit">
                 <button className="login__button" type="submit">
                     Войти
